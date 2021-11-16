@@ -11,14 +11,14 @@
             <small>Check the quality of your water!</small>
         </div>
         <div id="wasser.io-menu" class="menu">
-            <a href="#home" class="logo"> Wasser.io</a>
+            <a href="index.html" class="logo"> Wasser.io</a>
             <div id="wasser.io-menu-options" class="menu-center">
-                <a href="#search">Products</a>
-                <a href="#cart">About Us</a>
+                <a href="pages/products.html">Products</a>
+                <a href="#about-us">About Us</a>
             </div>
             <div id="wasser.io-menu" class="menu-right">
                 <a class="active" href="pages/login.html">Login</a>
-                <a href="#search">Search</a>
+                <a href="pages/products.html">Search</a>
                 <a href="#cart">Cart</a>
             </div>
         </div>
@@ -27,7 +27,7 @@
                 <img src="img/logo.png" class="logo" alt="">
                 <p class="sub-heading">Build your own water quality monitoring system!</p>
                 <div class="center-display">
-                    <button class="btn">Sign Up!</button>
+                    <button class="btn" onclick="location.href = 'pages/signup.html'">Sign Up!</button>
                 </div>
             </div>
         </header>
@@ -73,7 +73,7 @@
             </div>
         </section>
         <div class="center-display">
-            <button class="product-btn">Check out more</button>
+            <button class="product-btn" onclick="location.href = 'pages/products.html'">Check out more</button>
         </div> 
         <section class="product">
             <h2 class="product-category">poduct demonstration</h2>
@@ -93,7 +93,7 @@
                 </figure>
             </div>
         </section>
-        <section class="product">
+        <section id="about-us" class="product">
             <div class="container">
                 <div style="text-align:center">
                   <h2>Contact Us</h2>
