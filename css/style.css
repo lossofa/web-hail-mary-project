@@ -55,6 +55,10 @@
     background-color: dodgerblue;
     color: white;
   }
+
+  .menu-center {
+    float: center;
+  }
   
   /* Float the link section to the right */
   .menu-right {
@@ -111,6 +115,7 @@
   font-size: 20px;
   margin: 20px 0;
   text-transform: capitalize;
+  align-items: center;
   justify-content: center;
 }
 
@@ -237,7 +242,7 @@
   border: 1px solid cornflowerblue;
   color: blue;
   background-color: aliceblue;
-  font-size: 10px;
+  font-size: 15px;
   margin: 10px 0;
   text-transform: capitalize;
   justify-content: center;
@@ -256,6 +261,73 @@
   margin: 1em;
 }
 
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #e012d6;
+  color: white;
+}
+
+/* Instagram */
+.fa-pinterest {
+  background: #b60d0d;
+  color: white;
+}
+
+.center-display {
+  display: flex;
+  justify-content: center;
+}
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
     .menu a {
